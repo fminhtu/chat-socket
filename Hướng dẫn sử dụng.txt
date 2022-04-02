@@ -1,0 +1,23 @@
++ Thực thi file Server.jar
+ - Nhấn nút Start server để chạy server.
+ - Dòng chữ Server is running nghĩa là thành công.
+
++ Thực thi file Client.jar
+ - Nếu chưa có tài khoản, thực hiện register, nếu có rồi thì login vào.
+ - Sau khi register xong sẽ được chuyển tới giao diện Chatroom.
+ - Sau đó, ta bấm vào combobox bên cạnh 'chat with' để chọn người chat cùng.
+ - Sau khi đã chọn được người chat cùng, ta có thể soạn tin nhắn và nhấn enter hoặc nút send để gửi tin nhắn.
+
+ Ngoài ra, ta còn có thể bấm vào nút File để chọn 1 file từ máy tính và upload lên Server.
+ Sau khi hoàn tất quá trình upload file lên server, cả người nhận và người gửi có thể nhấn vào hyperlink để download file.
+
+Lưu ý: 
+ - khi upload file lên server có thể dalay chốc lát nếu như file quá nặng, đợi cho đến khi file upload xong và chat bình thường.
+ - Nếu 2 người cùng gửi file đồng thời, thì người nào gửi trước sẽ được xử lí trước, người gửi sau sẽ phải đợi cho đến khi tới lượt.
+ - Nếu trong quá trình nhắn tin mà đối phương thoát, màn hình sẽ đưa chúng ta về giao diện chatroom mặc định.
+ - Server chạy ở hostlocal và port 8080.
+
+Môi trường thực hiện:
+- IntelliJ IDEA
+- JDK 17
+- Windows 10
